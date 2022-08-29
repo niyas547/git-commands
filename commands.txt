@@ -1,8 +1,9 @@
-git init
-git status
-git add -A
-git commit -m "message"
-git log-list history of commmit
-git remote add name path
-git remote -v
-git push name master
+git init                           -initialize git in the folder
+git status                         -to track the untracked files in the project
+git add -A                         -add to the staging area  
+git commit -m "message"            -add to the local repository
+git log-list history of commmit    -to see the history of the git commmit
+git remote add name path           -to add remote repository path in to the git push
+git remote -v                      -to see the name of the remote repository  
+git push name master               -push the file or project and reload
+git clone path_of_pushed_one       -to get the project or file from the git hub
